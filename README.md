@@ -15,10 +15,15 @@ A social media platform for penguins.
 Register/ login
 
 Add friends
+
 Make posts
+
 Like posts
+
 Comment posts
+
 View personal profile pages
+
 Infinity scroller through post feed
 	
 ## Technologies
