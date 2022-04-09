@@ -9,7 +9,7 @@
 A social media platform for penguins. 
 
 ## Screenshots
-...
+![Alt text](/Screenshots/login-page.png?raw=true "Login page")
 
 ## Features
 Register/ login
