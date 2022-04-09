@@ -13,6 +13,7 @@ A social media platform for penguins.
 
 ## Features
 Register/ login
+
 Add friends
 Make posts
 Like posts
@@ -29,6 +30,7 @@ Project is created with:
 * CSS
 * Javascript
 * Jquery
+* Bootstrap 3
 	
 ## Setup
 To run this project ...
