@@ -29,7 +29,7 @@ function newFact() {
 
 
 
-
+/*
 window.onload = choosePic;
 
 let myPix = ["penguin_ad.jpg","penguin_ad2.jpg", "penguin_ad3.jpg", "penguin_ad4.jpg", "penguin_ad5.jpg"];
@@ -38,3 +38,4 @@ function choosePic() {
     let randomNum2 = Math.floor(Math.random() * myPix.length);
     document.canvas.src = "/static/ads/"+myPix[randomNum2];
 }
+*/
