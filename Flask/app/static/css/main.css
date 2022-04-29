@@ -2,7 +2,6 @@
 
 body {
     background-color: #96b4c9;
-    margin:0;height:100%;
 }
 
 canvas{
@@ -154,44 +153,6 @@ canvas{
 }
 
 
-#nav {
-    background: -webkit-linear-gradient(#000000, #005ccb, #000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: "Montserrat", sans-serif;
-}
-
-#nav-Create_post {
-    font-size: 20px;
-    font-family: Montserrat, sans-serif;
-    background: -webkit-linear-gradient(#000000, #005ccb, #000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#nav-Feed {
-    font-size: 20px;
-    font-family: Montserrat, sans-serif;
-    background: -webkit-linear-gradient(#000000, #005ccb, #000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#nav-Log-out {
-    font-size: 20px;
-    font-family: Montserrat, sans-serif;
-    background: -webkit-linear-gradient(#000000, #005ccb, #000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#nav-Profile {
-    font-size: 20px;
-    font-family: Montserrat, sans-serif;
-    background: -webkit-linear-gradient(#000000, #005ccb, #000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 
 .sidebar a {

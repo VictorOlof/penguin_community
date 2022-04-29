@@ -60,14 +60,14 @@
       <ul class="nav navbar-nav center">
       {% if 'email' in session %}
         <li {% if request.path == '/feed' %}class="active"{% endif %}>
-            <a href="{{ url_for('get_feed') }}" id="nav-Feed" >Feed</a>
+            <a href="{{ url_for('get_feed') }}" style="color: black" >Feed</a>
         </li>
         <li {% if request.path == '/create_post' %}class="active"{% endif %}>
-            <a href="{{ url_for('get_create_post') }}" id="nav-Create_post">Create post</a>
+            <a href="{{ url_for('get_create_post') }}" style="color: black">Create post</a>
         </li>
         <li {% if '/profile' in request.path %}class="active"{% endif %}>
 
-            <a href="{{ url_for('get_profile') }}" id="nav-Profile">Profile</a>
+            <a href="{{ url_for('get_profile') }}" style="color: black">Profile</a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -76,7 +76,7 @@
                 <input type="text" class="form-control" id="nameInput" placeholder="Search penguins">
           </form>
         </li>
-        <li><a href="{{ url_for('logged_out') }}" id="nav-Log-out"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+        <li><a href="{{ url_for('logged_out') }}" style="color: black" id="nav-Log-out"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
 
       {% else %}
       <li {% if request.path == '/sign_in' %}class="active"{% endif %}>
