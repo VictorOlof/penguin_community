@@ -9,16 +9,25 @@
 A social media platform for penguins. 
 
 ## Screenshots
-...
+Login page
+![Pogin page screenshot](/Screenshots/login-page.png?raw=true "Login page")
+
+Feed
+![Feed screenshot](/Screenshots/feed.png?raw=true "Feed page")
 
 ## Features
 Register/ login
 
 Add friends
+
 Make posts
+
 Like posts
+
 Comment posts
+
 View personal profile pages
+
 Infinity scroller through post feed
 	
 ## Technologies
