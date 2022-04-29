@@ -53,17 +53,19 @@ $(document).ready(function() {
 <div class="container">
   <div class="row">
     <div class="col-sm-4 content-window">
-            <div class="jumbotron sidebar" id="factDisplay">
+            <div class="jumbotron sidebar">
                 <a>Facts</a>
                 <hr>
+                <div id="factDisplay">
+
+                </div>
                 <img src="/static/images/did_you_know2.png" id="ad-img" alt="samarin">
                 <button id="button1" onclick="newFact()">Did you know?</button>
             </div>
             <div class="jumbotron sidebar" id="adDisplay">
                 <a>Sponsored</a>
                 <hr>
-                <input type="button" onClick="choosePic()" value="Display Random Image" style="display: none;">
-                <img src="img/dog5.jpg" name="canvas"/>
+                <img src="/static/images/p_ad.jpg" name="canvas"/>
             </div>
            {% block feed_content %}
             {% endblock %}
